@@ -1,0 +1,43 @@
+@media (max-width: 550px) {
+
+body{
+    background: #000;
+    margin: 20px  50px;
+}
+
+.wrapper{
+    gap: 30px;
+    justify-content: center;
+
+.firstUser,.secondUser,.thirdUser{
+
+    #firstUserCatchP, .cp{
+        display: none;
+    }
+}
+}
+.btn p{
+    color: white;
+}
+}
+
+@media (min-width: 551px) and (max-width: 909px) {
+body{
+    background: #0000008e;
+    margin: 20px  0 10rem 0;
+}
+
+.wrapper{
+    gap: 30px;
+    justify-content: center;
+}
+}
+
+@media (min-width: 910px) {
+.wrapper{
+    gap: 60px;
+    justify-content: center;
+}
+} 
+    
+

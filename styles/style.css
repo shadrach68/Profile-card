@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(300deg, #1f242d, rgb(194, 187, 187),rgba(0, 0, 0, 0.637), #1f242d);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin: 50px 0 10rem 0  ;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+
+    .input{
+        display: flex;
+        padding-left: 5px;
+        text-decoration: underline;
+        font-size: 19px;
+        font-weight: 800;
+        text-align: center;
+        color: #ffffff9f;
+        text-transform: lowercase;
+        flex-wrap: wrap;
+        border-radius: 3px;
+    }
+
+    .firstImg{
+        background-image: url("https://www.dementiaoxfordshire.org.uk/wp-content/uploads/2024/06/Leanne-Graham-768x1024.jpg");
+        background-position: top;
+        background-size: cover;
+    }
+    .secondImg{
+        background-image: url("https://manyavar.scene7.com/is/image/manyavar/I03_SRP-34+copy_14-11-2021-19-15:650x900?&dpr=on,2");
+        background-size: cover;
+        background-position: top;
+    }
+    .thirdImg{
+        background-image: url("https://7528315.fs1.hubspotusercontent-na1.net/hubfs/7528315/raw_assets/public/mV0_d-cms-growth-theme_hubspot/growth/images/industry-images/employee-three.jpg");
+        background-size: cover;
+        background-position: top;
+}
+
+.firstUser,.secondUser,.thirdUser{
+    border: 2px solid #222121da;
+    border-radius: 10px;
+    padding: 10px 20px;
+    line-height: 30px;
+    font-weight: 800;
+    color: #ffffff9f;
+    background: #1f242d54;
+    box-shadow: 0 0 20px #1f242d;
+
+    span{
+        display: flex;
+    }
+}
+
+.firstImg, .secondImg, .thirdImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    /* background: #ffffff9f; */
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px #fff;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    button{
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        background: #1f242d54;
+        color: #ffffff9f;
+        box-shadow: 0 0 20px #fff;
+        margin-bottom: 10px;
+    }
+
+    p{
+        border-bottom: 2px solid ;
+        font-size: 17px;
+        font-weight: 700;
+    }
+}
