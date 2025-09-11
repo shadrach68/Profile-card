@@ -1,7 +1,12 @@
 /* Media Queries */
 @media (max-width: 320px) {
+    body{
+    background: #4B352A;
+    margin: 20px  70px;
+    color: #B2CD9C;
+}
     .input{
-        font-size: 16px;
+        font-size: 12px;
         text-transform: uppercase;
     }
 
@@ -9,13 +14,16 @@
 
     button{
         padding: 8px 15px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     p{
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 700;
     }
+}
+h2{
+    font-size: 14;
 }
 }
 
@@ -23,9 +31,9 @@
 @media (max-width: 550px) {
 
 body{
-    background: #3E0703;
+    background: #4B352A;
     margin: 20px  50px;
-    color: #FFF0C4;
+    color: #B2CD9C;
 }
 
 .wrapper{
@@ -34,7 +42,7 @@ body{
 
 .firstUser,.secondUser,.thirdUser{
 
-    background: #660B05;
+    background: #CA7842;
 
     #firstUserCatchP, .cp{
         display: none;
@@ -42,15 +50,15 @@ body{
 }
 }
 .btn p{
-    color: #715A5A;
+    color: #B2CD9C;
 }
 }
 
 @media (min-width: 551px) and (max-width: 909px) {
 body{
-    background: #3E0703;
+    background: #4B352A;
     margin: 20px  0 10rem 0;
-    color: #FFF0C4;
+    color: #B2CD9C;
 }
 
 .wrapper{
@@ -59,11 +67,11 @@ body{
 
     .firstUser,.secondUser,.thirdUser{
 
-    background: #660B05;
+    background: #CA7842;
 }
 }
 .btn p{
-    color: #FFF0C4;
+    color: #B2CD9C;
 }
 }
 
