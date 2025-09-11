@@ -1,8 +1,9 @@
 /* Media Queries */
 @media (max-width: 320px) {
     body{
-    background: #4B352A;
-    margin: 20px  70px;
+    /* background: #4B352A; */
+    background: #000;
+    margin: 20px  100px;
     color: #B2CD9C;
 }
     .input{
@@ -31,7 +32,8 @@ h2{
 @media (max-width: 550px) {
 
 body{
-    background: #4B352A;
+    /* background: #4B352A; */
+    background: red;
     margin: 20px  50px;
     color: #B2CD9C;
 }
