@@ -58,7 +58,8 @@ body{
 
 @media (min-width: 551px) and (max-width: 909px) {
 body{
-    background: #4B352A;
+    /* background: #4B352A; */
+    background: green;
     margin: 20px  0 10rem 0;
     color: #B2CD9C;
 }
