@@ -41,9 +41,13 @@ body{
         font-weight: 800;
         text-align: center;
         color: #ffffff9f;
-        text-transform: uppercase;
+        text-transform: lowercase;
         flex-wrap: wrap;
         border-radius: 3px;
+    }
+
+    .user{
+        text-transform: uppercase;
     }
 
     .firstImg{
