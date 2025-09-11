@@ -1,8 +1,31 @@
+/* Media Queries */
+@media (max-width: 320px) {
+    .input{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .btn{
+
+    button{
+        padding: 8px 15px;
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+}
+
+
 @media (max-width: 550px) {
 
 body{
-    background: #000;
+    background: #3E0703;
     margin: 20px  50px;
+    color: #FFF0C4;
 }
 
 .wrapper{
@@ -11,25 +34,36 @@ body{
 
 .firstUser,.secondUser,.thirdUser{
 
+    background: #660B05;
+
     #firstUserCatchP, .cp{
         display: none;
     }
 }
 }
 .btn p{
-    color: white;
+    color: #715A5A;
 }
 }
 
 @media (min-width: 551px) and (max-width: 909px) {
 body{
-    background: #0000008e;
+    background: #3E0703;
     margin: 20px  0 10rem 0;
+    color: #FFF0C4;
 }
 
 .wrapper{
     gap: 30px;
     justify-content: center;
+
+    .firstUser,.secondUser,.thirdUser{
+
+    background: #660B05;
+}
+}
+.btn p{
+    color: #FFF0C4;
 }
 }
 

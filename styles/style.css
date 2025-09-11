@@ -41,7 +41,7 @@ body{
         font-weight: 800;
         text-align: center;
         color: #ffffff9f;
-        text-transform: lowercase;
+        text-transform: uppercase;
         flex-wrap: wrap;
         border-radius: 3px;
     }
